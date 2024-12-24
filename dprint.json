@@ -1,0 +1,18 @@
+{
+  "lineWidth": 100,
+  "useTabs": false,
+  "indentWidth": 4,
+  "typescript": {
+    "quoteStyle": "preferDouble",
+    "binaryExpression.operatorPosition": "sameLine",
+    "semiColons": "always",
+    "trailingCommas": "onlyMultiLine",
+    "bracePosition": "maintain"
+  },
+  "excludes": [
+    "**/node_modules"
+  ],
+  "plugins": [
+    "https://plugins.dprint.dev/typescript-0.93.3.wasm"
+  ]
+}
